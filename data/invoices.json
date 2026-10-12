@@ -1,0 +1,27 @@
+[
+  {
+    "invoice_number": "INV-2024-001",
+    "invoice_date": "2024-04-01",
+    "customer_id": "CUST-8812",
+    "customer_name": "Acme Dynamics Corp",
+    "customer_email": "billing@acmedynamics.com",
+    "tax_rate": 8.5,
+    "items": [
+      {"description": "Dedicated Cloud Kubernetes Node (Monthly)", "quantity": 2, "unit_price": 250.00},
+      {"description": "Enterprise SSL Wildcard Certificate", "quantity": 1, "unit_price": 120.00},
+      {"description": "Automated Backup Storage (1TB)", "quantity": 3, "unit_price": 35.00}
+    ]
+  },
+  {
+    "invoice_number": "INV-2024-002",
+    "invoice_date": "2024-04-03",
+    "customer_id": "CUST-9043",
+    "customer_name": "Nexus Global Media",
+    "customer_email": "finance@nexusglobal.io",
+    "tax_rate": 7.0,
+    "items": [
+      {"description": "High-Throughput SMTP Relay Service", "quantity": 1, "unit_price": 450.00},
+      {"description": "Dedicated Outbound IP Address", "quantity": 2, "unit_price": 40.00}
+    ]
+  }
+]

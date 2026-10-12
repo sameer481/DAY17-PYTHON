@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2026-10-12T10:24:09.975370",
+    "recipient_email": "alex.johnson@example.com",
+    "recipient_name": "Alex Johnson",
+    "status": "DELIVERED_SIMULATED",
+    "plan": "Enterprise",
+    "message_id": "<179178084971.30288.11114592502759643841@masterclass.automation.local>"
+  },
+  {
+    "timestamp": "2026-10-12T10:24:10.228281",
+    "recipient_email": "elena.rostova@example.com",
+    "recipient_name": "Elena Rostova",
+    "status": "DELIVERED_SIMULATED",
+    "plan": "Pro",
+    "message_id": "<179178084997.30288.15124603947901943897@masterclass.automation.local>"
+  },
+  {
+    "timestamp": "2026-10-12T10:24:10.483290",
+    "recipient_email": "rajesh.patel@example.com",
+    "recipient_name": "Rajesh Patel",
+    "status": "DELIVERED_SIMULATED",
+    "plan": "Standard",
+    "message_id": "<179178085022.30288.10465935577156544976@masterclass.automation.local>"
+  },
+  {
+    "timestamp": "2026-10-12T10:24:10.737471",
+    "recipient_email": "sophia.martinez@example.com",
+    "recipient_name": "Sophia Martinez",
+    "status": "DELIVERED_SIMULATED",
+    "plan": "Enterprise",
+    "message_id": "<179178085048.30288.5416532819247508766@masterclass.automation.local>"
+  },
+  {
+    "timestamp": "2026-10-12T10:24:10.991397",
+    "recipient_email": "liam.oconnor@example.com",
+    "recipient_name": "Liam O'Connor",
+    "status": "DELIVERED_SIMULATED",
+    "plan": "Pro",
+    "message_id": "<179178085073.30288.8508244083475946441@masterclass.automation.local>"
+  }
+]

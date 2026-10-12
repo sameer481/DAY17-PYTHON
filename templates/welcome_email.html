@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Python Mastery</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f4f6f9;
+      color: #333333;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
+    .header {
+      background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+      padding: 35px 25px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .header h1 {
+      margin: 0 0 8px;
+      font-size: 26px;
+      letter-spacing: -0.5px;
+    }
+    .header p {
+      margin: 0;
+      font-size: 15px;
+      opacity: 0.9;
+    }
+    .content {
+      padding: 35px 30px;
+      line-height: 1.6;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      background-color: #e3f2fd;
+      color: #1976d2;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 20px;
+      margin-bottom: 15px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background-color: #2a5298;
+      color: #ffffff !important;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 8px;
+      margin-top: 20px;
+      box-shadow: 0 4px 10px rgba(42, 82, 152, 0.3);
+    }
+    .feature-list {
+      margin: 25px 0;
+      padding: 0;
+      list-style: none;
+    }
+    .feature-list li {
+      padding: 10px 0;
+      border-bottom: 1px solid #edf2f7;
+    }
+    .footer {
+      background-color: #f8fafc;
+      padding: 25px;
+      text-align: center;
+      font-size: 13px;
+      color: #718096;
+      border-top: 1px solid #e2e8f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🚀 Welcome, ${user_name}!</h1>
+      <p>Automated Python Notification System</p>
+    </div>
+    <div class="content">
+      <div class="badge">Tier: ${plan_tier} Member</div>
+      <p>Hello <strong>${user_name}</strong>,</p>
+      <p>Thank you for joining our developer circle on <strong>${joined_date}</strong>. Your account has been provisioned and is ready to automate mission-critical tasks.</p>
+      
+      <h3>What you have access to:</h3>
+      <ul class="feature-list">
+        <li>⚡ <strong>SMTP Transactional Dispatch:</strong> High-throughput email delivery.</li>
+        <li>📎 <strong>Rich MIME Assets:</strong> High-resolution attachments & inline charts.</li>
+        <li>📥 <strong>IMAP Mailbox Watchdog:</strong> Real-time inbox triggers & document harvesting.</li>
+      </ul>
+
+      <div style="text-align: center;">
+        <a href="https://github.com/sameer481/DAY17-PYTHON" class="btn">Explore GitHub Repository</a>
+      </div>
+    </div>
+    <div class="footer">
+      <p>You received this automated email because you are registered for ${user_name}.</p>
+      <p>&copy; ${current_year} Python Automation Masterclass. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
